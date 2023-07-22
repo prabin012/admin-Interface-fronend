@@ -1,0 +1,138 @@
+@media screen and (max-width: 1280px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        height: 60px;
+        left: 0;
+        background-color: white;
+        box-shadow: 0 0 30px rgba(28, 26, 26, 0.938);
+        z-index: 999;
+        
+        
+    }
+    .navbar li{
+        padding: .3rem 1rem;
+        font-size: 1.7rem;
+        
+        
+    }
+    .navbar li a{
+        color: black;
+        background-color: transparent;
+    }
+    .navbar li a:hover{
+        background-color: blue;
+    }
+    .navbar-2{
+        display: none;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        
+    }
+   .retirement{
+    /* display: none; */
+   }
+   .part-1{
+    width: 100%;
+    height: 100vh;
+   }
+   .price-update{
+    left: 1.4rem;
+   }
+   
+   .price-amount-1 h2{
+    font-size: 3rem;
+   }
+   .part-2{
+    width: 100%;
+    height: auto;
+    padding-bottom:0rem;
+
+   }
+   .part-3{
+    margin-top: -6rem;
+    width: 100%;
+    height: 100vh;
+    padding-bottom:10rem;
+    margin-left: 2.5rem;
+   }
+   .circleChart{
+    width: 100%;
+    padding: 1rem;
+    /* text-align: center; */
+    height: 60vh;
+   }
+   .circleChart h3{
+    font-size: 1.7rem;
+   }
+   .circle-text h3{
+    font-size: 1.3rem;
+    padding-top: 1.5rem;
+   }
+   .chart-item{
+    display: flex;
+    flex-direction: column;
+   }
+   .circle-text{
+    /* margin-left: 1rem; */
+    width: 100%;
+   }
+   .charts{
+    width: 100%;
+   }
+   .b-2{
+    width: 100%;
+   }
+   .b-2 h3{
+    font-size: 2.5rem;
+   }
+   .b-1{
+    margin: 1rem;
+   }
+   .strategy h1{
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   .container-1{
+    width: 100%;
+   }
+   .container label{
+    font-size: 1.4rem;
+    padding: 1rem 0rem;
+    line-height: 40px;
+   }
+   .container input{
+    padding: .4rem 0rem;
+    width: 100%;
+
+   }
+   .container-2{
+    font-size: 1.4rem;
+   }
+   .price-amount{
+    width: 100%;
+   }
+   .btn button{
+    width: 90%;
+    height: 3rem;
+   }
+   .transection-22{
+    width: 90%;
+   }
+   #myChart{
+    width: 100%;
+   }
+}
